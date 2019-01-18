@@ -1,7 +1,7 @@
 Sta 323 - Homework 1
 -------------
 
-Due by 1 pm on Monday 1/24/2019.
+Due by 11:59 pm on Thursday 1/24/2019.
 
 
 <br/>
