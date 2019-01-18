@@ -1,0 +1,51 @@
+Homework 1 - [Your name here]
+========================================================
+
+### Task 1 - Implementation
+
+
+Use this section to implement the fizzbuzz function.
+
+This should replace this text with a short write up describing your approach
+to implementing the function. Note that both code formating / style
+and your writeup matter for your overall grade.
+
+
+```{r}
+fizzbuzz = function(v) {
+
+}
+```
+
+### Task 2 - Validation & Testing
+
+#### Good Inputs
+
+```{r}
+fizzbuzz(1)
+fizzbuzz(3)
+fizzbuzz(5)
+fizzbuzz(15)
+
+fizzbuzz(9:15)
+fizzbuzz(15:9)
+```
+
+
+#### Bad Inputs
+
+```{r error=TRUE}
+fizzbuzz(-1)
+fizzbuzz(-3)
+fizzbuzz(-5)
+
+fizzbuzz(Inf)
+fizzbuzz(-Inf)
+
+fizzbuzz("A")
+fizzbuzz(1.5)
+fizzbuzz(1i)
+fizzbuzz(4i)
+```
+
+
