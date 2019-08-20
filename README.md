@@ -1,3 +1,6 @@
+[![Reproducibility status](https://github.com/statprog-s1-2019/hw1/workflows/Reproducibility/badge.svg)](https://github.com/statprog-s1-2019/hw1/actions)
+
+
 
 
 
