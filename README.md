@@ -1,7 +1,7 @@
 
 
-[![Reproducibility2 status](https://github.com/statprog-s1-2019/hw1/workflows/Reproducibility2/badge.svg)](https://github.com/statprog-s1-2019/hw1/actions)
-[![Reproducibility status](https://github.com/statprog-s1-2019/hw1/workflows/Reproducibility/badge.svg)](https://github.com/statprog-s1-2019/hw1/actions)
+
+
 Sta 323 - Homework 1
 -------------
 
