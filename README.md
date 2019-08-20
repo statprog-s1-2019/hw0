@@ -1,4 +1,4 @@
-[![Reproducibility status](https://github.com/statprog-s1-2019/hw1/workflows/Reproducibility/badge.svg)](https://github.com/statprog-s1-2019/hw1/actions)Sta 323 - Homework 1
+[![Reproducibility status](https://github.com/statprog-s1-2019/hw1/workflows/Reproducibility/badge.svg)](https://github.com/statprog-s1-2019/hw1/actions)[![Reproducibility status](https://github.com/statprog-s1-2019/hw1/workflows/Reproducibility/badge.svg)](https://github.com/statprog-s1-2019/hw1/actions)Sta 323 - Homework 1
 -------------
 
 Due by 11:59 pm on Thursday 1/24/2019.
