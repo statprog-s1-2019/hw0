@@ -1,0 +1,13 @@
+on: push
+name: Check Reproducibility
+jobs:
+  knit:
+    runs-on: ubuntu-latest
+    container:
+      image: rocker/tidyverse:latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Knit
+      run:  Rscript -e "rmarkdown::render('hw1.Rmd')"
+      
