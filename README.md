@@ -5,11 +5,8 @@
 
 
 
-Sta 323 - Homework 1
+Statistical Programming - Homework 0
 -------------
-
-Due by 11:59 pm on Thursday 1/24/2019.
-
 
 <br/>
 
