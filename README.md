@@ -40,12 +40,10 @@ Test if your FizzBuzz function displays the correct output for a variety of inpu
 
 ## Submission and Grading
 
-This homework is due by *11:59 pm Thursday, January 24th*. You are to complete the assignment as an individual and to keep everything (code, write ups, etc.) on your personal repository (commit early and often). 
+This homework will not be graded however, you are encouraged to complete the assignment as an individual and to keep everything (code, write ups, etc.) on your personal repository (commit early and often). 
 
-The final product for this assignment should be a single Rmd document (a template of which is provided in your repo) that contains all code and text for the tasks described above. This document should be clearly and cleanly formated and present all of your results. Style and formating does count for this assignment, so please take the time to make sure everything looks good and your text and code are properly formated. This document must be reproducible and I must be able to compile it with minimal intervention - documents that do not compile will be given a 0. 
+The final product for this assignment should be a single Rmd document (a template of which is provided in your repo) that contains all code and text for the tasks described above. This document should be clearly and cleanly formated and present all of your results. Style and formating will count for future assignments, so please take the time to make sure everything looks good and your text and code are properly formated. 
 
-To help with this goal, we will be using the Wercker continuous integration platform to test all of your code submissions. Everytime you push to github, Wercker will attempt to compile your Rmd file and report back on its status. If Wercker is reporting that the build passes then your Rmd document can be cleanly compiled.
-
-In this class I will not be enforcing any particular coding style, however it is important that the code you produce is *readable* and *consistent* in its formating. There are several R style guides online, e.g. from [Google](https://google.github.io/styleguide/Rguide.xml) and from [Hadley Wickham](http://r-pkgs.had.co.nz/style.html).
+In this class we will not be enforcing any particular coding style, however it is important that the code you produce is *readable* and *consistent* in its formating. There are several R style guides online, e.g. from [Google](https://google.github.io/styleguide/Rguide.xml) and from the [tidyverse team](https://style.tidyverse.org/).
 
 <br/>
