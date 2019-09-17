@@ -1,10 +1,8 @@
-allowed_files = c("hw1.Rmd",
+allowed_files = c("hw0.Rmd",
                   "README.md",
-                  "wercker.yml",
-                  "hw1.Rproj",
-                  "hw1_whitelist.R",
-                  "fizzbuzz.png",
-                  ".gitignore")
+                  "hw0.Rproj",
+                  "hw0_whitelist.R",
+                  "fizzbuzz.png")
 
 files = dir()
 disallowed_files = files[!(files %in% allowed_files)]
