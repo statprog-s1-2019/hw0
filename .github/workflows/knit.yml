@@ -1,5 +1,5 @@
 on: push
-name: Reproducibility
+name: Check Reproducibility
 jobs:
   knit:
     runs-on: ubuntu-latest
