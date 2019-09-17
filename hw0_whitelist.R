@@ -1,4 +1,5 @@
-allowed_files = c("hw0.Rmd",
+allowed_files = c("hw0.md",
+                  "hw0.Rmd",
                   "README.md",
                   "hw0.Rproj",
                   "hw0_whitelist.R",

@@ -1,5 +1,8 @@
-Homework 1 - [Your name here]
-========================================================
+---
+title: "Homework 0"
+output: github_document
+author: [Your name here]
+---
 
 ### Task 1 - Implementation
 
@@ -7,8 +10,8 @@ Homework 1 - [Your name here]
 Use this section to implement the fizzbuzz function.
 
 This should replace this text with a short write up describing your approach
-to implementing the function. Note that both code formating / style
-and your writeup matter for your overall grade.
+to implementing the function. Note that in future assignments both code formating / style
+and your writeup matter for your overall mark
 
 
 ```{r}
@@ -18,6 +21,8 @@ fizzbuzz = function(v) {
 ```
 
 ### Task 2 - Validation & Testing
+
+Below are a (incomplete) collection of test cases that have been separated into good and bad inputs. After you have implemented the function above check that the test cases below produce the correct output (or at least a useful error message).
 
 #### Good Inputs
 
@@ -29,6 +34,8 @@ fizzbuzz(15)
 
 fizzbuzz(9:15)
 fizzbuzz(15:9)
+
+fizzbuzz(1:12)
 ```
 
 
@@ -39,8 +46,12 @@ fizzbuzz(-1)
 fizzbuzz(-3)
 fizzbuzz(-5)
 
+fizzbuzz(TRUE)
+fizzbuzz(FALSE)
+
 fizzbuzz(Inf)
 fizzbuzz(-Inf)
+fizzbuzz(NaN)
 
 fizzbuzz("A")
 fizzbuzz(1.5)

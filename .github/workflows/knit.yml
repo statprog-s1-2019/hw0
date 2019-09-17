@@ -8,6 +8,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
-    - name: Knit
+    - name: Check
       run:  Rscript -e "rmarkdown::render('hw0.Rmd')"
       

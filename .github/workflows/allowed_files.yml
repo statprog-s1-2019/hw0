@@ -1,0 +1,13 @@
+on: push
+name: Check Allowed Files
+jobs:
+  knit:
+    runs-on: ubuntu-latest
+    container:
+      image: rocker/r-ver:latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Check
+      run: Rscript -e "source('https://raw.githubusercontent.com/statprog-s1-2019/hw0/master/hw0_whitelist.R')"
+      
