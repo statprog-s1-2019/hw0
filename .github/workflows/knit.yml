@@ -9,5 +9,5 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
     - name: Knit
-      run:  Rscript -e "rmarkdown::render('hw1.Rmd')"
+      run:  Rscript -e "rmarkdown::render('hw0.Rmd')"
       
