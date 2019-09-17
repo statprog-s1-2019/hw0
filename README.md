@@ -1,9 +1,3 @@
-[![Reproducibility status](workflows/Reproducibility/badge.svg)](actions)
-
-
-
-
-
 
 Statistical Programming - Homework 0
 -------------
