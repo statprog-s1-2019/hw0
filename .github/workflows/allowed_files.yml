@@ -1,7 +1,7 @@
 on: push
 name: Check Allowed Files
 jobs:
-  knit:
+  check:
     runs-on: ubuntu-latest
     container:
       image: rocker/r-ver:latest
