@@ -1,22 +1,38 @@
 ---
 title: "Homework 0"
 output: github_document
-author: [Your name here]
+author: [Abzal Yessengazy]
 ---
 
 ### Task 1 - Implementation
 
 
-Use this section to implement the fizzbuzz function.
 
-This should replace this text with a short write up describing your approach
-to implementing the function. Note that in future assignments both code formating / style
-and your writeup matter for your overall mark
+I think I used too many if statements, but will do better next time. 
+
+Secondly, I did not fullfill the condition within numeric inputs like 5.0 is acceptable and 5.1 is not. need to clarify during the workshop. 
+All comments have # and are below. 
 
 
 ```{r}
-fizzbuzz = function(v) {
-
+fizzbuzz = function(vtr){ 
+    for (v in vtr){ #using v to go through each element / number of vector vtr
+        if (is.numeric(v) == TRUE) { #checks if the value is numeric i.e. double or integer
+            if (v >= 0) { # checks if value is positive
+                if (is.finite(v) == TRUE) { #checks if the value is finite
+                    if (v %% 5 == 0 & v %% 3 == 0){print("Fizzbuzz")} #main fizzbuzz replacement code
+                    else if (v %% 3 == 0) {print("Fizz")}
+                    else if (v %% 5 == 0) {print("Buzz")}
+                    else (print(v))   
+                }
+                else (print("ONLY finite Allowed")) #prints out errors and so on...
+                            }
+            else (print("ONLY Positive Allowed"))
+        }
+        else (print("ONLY Numeric Allowed"))
+        
+    }
+       
 }
 ```
 
